@@ -37,7 +37,7 @@ button {
   color: #2e2f42;
 }
 
-.link-header-1 {
+.link-header {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -45,7 +45,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-.link-header-1:hover {
+.link-header:hover {
   color: #404bbf;
 }
 
@@ -90,6 +90,11 @@ h1 {
   background-color: #2e2f42;
 }
 
+.title {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
 .button-order {
   width: 169px;
   height: 56px;
@@ -100,6 +105,11 @@ h1 {
   gap: 10px;
   background-color: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button-order:hover {
