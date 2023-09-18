@@ -1,9 +1,10 @@
 font-family: "Raleway", sans-serif;
 font-family: "Roboto", sans-serif;
 
-.body {
+body {
   color: #434455;
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 
 a {
@@ -26,11 +27,26 @@ button {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-color {
-  color: #4d5ae5;
+  color: #2e2f42;
+}
+
+.link-header-1 {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link-header-1:hover {
+  color: #404bbf;
 }
 
 .list-header {
@@ -45,12 +61,21 @@ button {
 }
 
 .contacts {
+  font-style: normal;
+}
+
+.list-contacts {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
-.contacts:hover {
+.list-contacts:hover {
+  color: #404bbf;
+}
+
+.list-contacts::after {
   color: #404bbf;
 }
 
@@ -91,4 +116,8 @@ h1 {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.section-cards {
+  background-color: #f4f4fd;
 }
