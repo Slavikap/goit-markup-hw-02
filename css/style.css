@@ -114,6 +114,7 @@ h1 {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .title-features {
@@ -156,18 +157,10 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-.footer {
-  background-color: #2e2f42;
-}
-
 .paragraph-footer {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-
-.logo-color-footer {
-  color: #2e2f42;
 }
 
 .title-portfolio {
@@ -183,4 +176,12 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.footer {
+  color: #f4f4fd;
+}
+
+.logo-color-footer {
+  color: #2e2f42;
 }
