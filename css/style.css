@@ -93,13 +93,6 @@ h1 {
 }
 
 .button-order {
-  width: 169px;
-  height: 56px;
-  top: 428px;
-  left: 636px;
-  padding: 16px, 32px, 16px, 32px;
-  border-radius: 4px;
-  gap: 10px;
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
