@@ -10,14 +10,27 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 button {
   border: none;
 }
 
-.header {
-  background-color: #e7e9fc;
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  align-items: baseline;
+  padding-top: 24px;
 }
 
 .logo {
@@ -28,10 +41,17 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-top: 24px;
+  margin-right: 36px;
 }
 
 .logo-color {
   color: #2e2f42;
+}
+
+.list-header {
+  display: flex;
+  gap: 40px;
 }
 
 .link-header {
@@ -52,6 +72,11 @@ button {
 
 .contacts {
   font-style: normal;
+}
+
+.list-wrapper {
+  display: flex;
+  gap: 40px;
 }
 
 .list-contacts {
@@ -78,6 +103,11 @@ h1 {
 
 .title-section {
   background-color: #2e2f42;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .title {
@@ -93,6 +123,10 @@ h1 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .button-order:hover {
@@ -116,20 +150,34 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 264px;
+}
+
+.section-features {
+  height: 344px;
+  display: flex;
 }
 
 .heading {
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: none;
 }
 
 .list-features {
+  display: flex;
+  gap: 24px;
+  margin-top: 120px;
+}
+
+.item-features {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .section-cards {
-  background-color: #f4f4fd;
+  background-color: #e7e9fc;
+  height: 732px;
 }
 
 .title-team {
@@ -139,10 +187,21 @@ h1 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .list-team {
+  display: flex;
+  gap: 24px;
+}
+
+.item-team {
   background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
 }
 
 .title-cards {
@@ -151,11 +210,26 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 .paragraph-team {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.headline-portfolio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  margin-bottom: 120px;
 }
 
 .paragraph-footer {
@@ -182,8 +256,28 @@ h1 {
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  height: 312px;
 }
 
 .logo-color-footer {
   color: #f4f4fd;
+}
+
+.navigation-position {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 264px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
