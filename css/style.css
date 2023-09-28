@@ -4,6 +4,10 @@ body {
   background-color: #ffffff;
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
@@ -18,18 +22,24 @@ button {
 }
 
 .container {
-  max-width: 1230px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-header {
+.container-header {
+  width: 1158px;
+  padding: 0 15px;
+}
+
+.header {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   padding-top: 24px;
 }
 
