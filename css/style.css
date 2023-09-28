@@ -22,6 +22,10 @@ button {
   border: none;
 }
 
+h2 {
+  margin: 0;
+}
+
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -156,6 +160,7 @@ h1 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .p-main {
@@ -168,20 +173,23 @@ h1 {
 }
 
 .section-features {
-  height: 344px;
+  padding: 120px 0;
+}
+
+.container-features {
   display: flex;
+  align-items: center;
 }
 
 .heading {
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: none;
+  visibility: hidden;
 }
 
 .list-features {
   display: flex;
   gap: 24px;
-  margin-top: 120px;
 }
 
 .item-features {
@@ -191,7 +199,7 @@ h1 {
 
 .section-cards {
   background-color: #e7e9fc;
-  height: 732px;
+  padding: 120px 0;
 }
 
 .title-team {
@@ -201,8 +209,7 @@ h1 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .list-team {
@@ -215,7 +222,11 @@ h1 {
   width: 264px;
   height: 380px;
   border-radius: 4px;
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.container-team {
+  padding: 32px 0;
 }
 
 .title-cards {
@@ -225,6 +236,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
 }
 .paragraph-team {
   font-size: 16px;
