@@ -32,6 +32,11 @@ h2 {
   margin: 0 auto;
 }
 
+.container-header {
+  width: 1158px;
+  padding: 0 15px;
+}
+
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
@@ -70,6 +75,7 @@ h2 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .link-header:hover {
