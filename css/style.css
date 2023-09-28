@@ -15,6 +15,7 @@ a {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 button {
@@ -45,7 +46,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 24px;
+  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -109,16 +110,21 @@ h1 {
 .title-section {
   background-color: #2e2f42;
   height: 600px;
+
+  padding: 188px 0;
+}
+
+.title-position {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 188px 0;
 }
 
 .title {
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .button-order {
@@ -133,6 +139,8 @@ h1 {
   height: 56px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px #00000026;
+  display: block;
+  min-width: 169px;
 }
 
 .button-order:hover {
