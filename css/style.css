@@ -327,12 +327,6 @@ h1 {
   color: #f4f4fd;
 }
 
-.navigation-position {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-around;
-}
-
 .footer-wrapper {
   display: flex;
   justify-content: flex-start;
