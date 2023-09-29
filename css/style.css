@@ -35,6 +35,7 @@ h2 {
 .container-header {
   width: 1158px;
   padding: 0 15px;
+  display: flex;
 }
 
 .header {
