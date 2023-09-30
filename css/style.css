@@ -22,7 +22,16 @@ button {
   border: none;
 }
 
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
   margin: 0;
 }
 
@@ -36,6 +45,7 @@ h2 {
   width: 1158px;
   padding: 0 15px;
   display: flex;
+  align-items: center;
 }
 
 .header {
@@ -89,6 +99,7 @@ h2 {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .list-wrapper {
@@ -152,6 +163,7 @@ h1 {
   box-shadow: 0px 4px 4px 0px #00000026;
   display: block;
   min-width: 169px;
+  margin-top: 48px;
 }
 
 .button-order:hover {
@@ -234,7 +246,6 @@ h1 {
 .item-team {
   background-color: #ffffff;
   width: 264px;
-  height: 380px;
   border-radius: 4px;
   border-radius: 0px 0px 4px 4px;
 }
@@ -279,7 +290,6 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  margin-bottom: 120px;
 }
 
 .paragraph-footer {
